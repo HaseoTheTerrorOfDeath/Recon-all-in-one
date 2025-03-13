@@ -59,4 +59,4 @@ This script requires several tools to be installed. The script automatically che
    This will perform the full recon process for the domain example.com and save the results in the directory /root/recon/example.com/.
    
    ```bash
-   ./recon_script.sh <domain> or <file.txt>
+   ./recon_script.sh example.com or example.txt
