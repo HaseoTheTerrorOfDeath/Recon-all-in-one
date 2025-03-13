@@ -51,8 +51,12 @@ This script requires several tools to be installed. The script automatically che
   
    ```bash
    ./recon_script.sh <domain> or <file.txt>
-   
-## <domain>: The target domain you want to perform recon on.
-## <file.txt>: A text file containing a list of domains, one per line.
 
 4. Results will be saved in directories organized by target, under /root/recon/.
+
+# Example Usage
+
+   This will perform the full recon process for the domain example.com and save the results in the directory /root/recon/example.com/.
+   
+   ```bash
+   ./recon_script.sh <domain> or <file.txt>
